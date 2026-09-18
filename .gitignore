@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (ignored, pero carpetas mantenidas con .gitkeep)
+data/raw/*
+data/raw_csv/*
+data/clean/*
+output/*
+
+# Keep folders
+!data/raw/.gitkeep
+!data/raw_csv/.gitkeep
+!data/clean/.gitkeep
+!src/.gitkeep
+!output/.gitkeep
+!notebooks/.gitkeep
+!docs/.gitkeep
